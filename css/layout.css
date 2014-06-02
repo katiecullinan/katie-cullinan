@@ -62,14 +62,17 @@
 	}
 
 
-bx-wrapper {
+.bx-wrapper {
 	position: relative;
 	margin: 2em auto 60px;
 	padding: 0;
 	max-width: 800px;
 }
-
-.
+.slider {
+max-width: 800px;
+margin-right:auto;
+	margin-left:auto;
+}
 	
 .contact a {
 	text-decoration: none;
