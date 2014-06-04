@@ -48,7 +48,7 @@
 	position: absolute;
 	bottom: -30px;
 	width: 100%;
-	max-width: 800px;
+	
 }
 
 /* LOADER */
@@ -62,7 +62,7 @@
 	top: 0;
 	left: 0;
 	z-index: 2000;
-	max-width: 800px;
+	
 }
 
 /* PAGER */
@@ -108,13 +108,13 @@
  .bx-prev {
 	left: 10px;
 	background: url(images/controls.png) no-repeat 0 -32px;
-	max-width: 800px;
+	
 }
 
 .bx-next {
 	right: 10px;
 	background: url(images/controls.png) no-repeat -43px -32px;
-	max-width: 800px;
+
 }
 
 .bx-prev:hover {
