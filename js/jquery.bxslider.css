@@ -16,9 +16,10 @@
 
 .bx-wrapper {
 	position: relative;
-	margin: 2em auto 60px;
+	margin-left:auto;
+	margin-right:auto;
 	padding: 0;
-	max-width: 800px;
+	max-width: 900px;
 }
 
 .bx-wrapper img {
@@ -30,7 +31,7 @@
 ===================================*/
 
 .bx-viewport {
-	max-width: 800px;
+	max-width: 900px;
 	
 	left: -5px;
 	
