@@ -75,6 +75,7 @@
 	font-weight: bold;
 	color: #666;
 	padding-top: 20px;
+	display:none;
 }
 
  .bx-pager .bx-pager-item,
@@ -96,6 +97,7 @@
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
 	
+	
 }
 
 .bx-wrapper .bx-pager.bx-default-pager a:hover,
@@ -107,8 +109,9 @@
 /* DIRECTION CONTROLS (NEXT / PREV) */
 
  .bx-prev {
-	left: 10px;
+	
 	background: url(images/controls.png) no-repeat 0 -32px;
+	
 	
 }
 
@@ -120,10 +123,12 @@
 
 .bx-prev:hover {
 	background-position: 0 0;
+	
 }
 
 .bx-next:hover {
 	background-position: -43px 0;
+	
 }
 
 .bx-controls-direction a {

@@ -75,7 +75,7 @@ margin-left:auto;
 }
 
 .gallery {
-max-width: 900px;
+max-width: 950px;
 margin-right:auto;
 margin-left:auto;
 margin-top:3em;
@@ -146,6 +146,11 @@ contact  a:visited {color: #555;}
 	display: none;
 	
 	}
+	
+hr {
+border-top: 1px solid #ccc;
+margin-top: 60px;
+}	
 	
 /* MOBILE LAYOUT */
 

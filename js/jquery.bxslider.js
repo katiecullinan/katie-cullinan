@@ -45,7 +45,7 @@
 
 		// PAGER
 		pager: true,
-		pagerType: 'full',
+		pagerType: 'short',
 		pagerShortSeparator: ' / ',
 		pagerSelector: null,
 		buildPager: null,
