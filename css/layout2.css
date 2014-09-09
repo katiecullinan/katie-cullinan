@@ -150,6 +150,13 @@ margin-top: 5em;
 	}
 contact  a:visited {color: #555;}	
 
+ a {
+	text-decoration: none;
+	color: black;
+	font-weight: 400;}
+	
+.column a:hover {
+	color: #FF4719;}	
 	
 #mobile_nav {
 	display:none;
@@ -173,6 +180,14 @@ margin-top: 60px;
 	border-top:1px solid #ccc;
 	margin-top: 70px;
 	}
+
+
+
+
+
+
+
+
 
 	
 /* MOBILE LAYOUT */
