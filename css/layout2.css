@@ -37,9 +37,11 @@ header {
 }
 
 
+
+
 #home {
 	float:left;
-	margin: 17px 0 0 25px;
+	margin: 17px 0 0 10px;
 	}
 
 .navbar {
@@ -48,6 +50,7 @@ header {
 	color: #222222;
 	padding: 0;
 	float: right;
+	margin-top: 20px;
 	
 	}
 
@@ -64,6 +67,8 @@ header {
 	color: #222;
 	margin-left: 2em;
 	margin-right: 2em;
+	margin-top: 1em;
+	
 
 	}		
 	
@@ -76,53 +81,36 @@ header {
 	}
 
 
-.bx-wrapper {
-	position: relative;
-	margin: 2em auto 60px;
-	padding: 0;
-	
-}
-.slider {
-max-width: 900px;
-margin-right:auto;
-margin-left:auto;
-}
+
 
 .gallery {
 max-width: 1000px;
 margin-right:auto;
 margin-left:auto;
-margin-top:3em;
+margin-top:50px;
 }	
 	
-.image1 {
+.column {
  width:25%;
 float: left;
-display: inline-block;
+display: block;
+
+
  }
 
-
-.image2 {
- width:25%;
-display: inline-block;
-float: left;
-
- }
- 
- .image3 {
-
- width:25%;
-float: left;
-display: inline-block;
- }
- 
-  .image4 {
-
- width:25%;
-float: left;
-display: inline-block;
- }
- 
+.column li {
+	text-decoration:none;
+	 list-style-type: none;
+	 padding: 10px 0 10px 0;
+	 margin-top: 20px;
+	 text-align:center;
+	}
+	
+.column ul{
+padding: 30px;
+margin: 0 auto 0 auto;
+}	
+	
 
  
 .row1_image {
@@ -176,6 +164,16 @@ hr {
 border-top: 1px solid #ccc;
 margin-top: 60px;
 }	
+
+#headerhr {
+	width: 1000px;
+}
+
+#headerhr hr{
+	border-top:1px solid #ccc;
+	margin-top: 70px;
+	}
+
 	
 /* MOBILE LAYOUT */
 
