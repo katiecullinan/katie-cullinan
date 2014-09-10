@@ -44,7 +44,7 @@ padding-top: 10px;
 #home {
 	
 	margin: 30px auto 0 auto;
-	width: 350px;
+	max-width: 350px;
 	}
 
 .navbar {
@@ -260,7 +260,7 @@ margin-top:20px;}
 padding: 30px;
 margin: 0 auto 0 auto;
 }	
-	
+	}
 
 	
 /* MOBILE LAYOUT */
@@ -274,9 +274,9 @@ margin: 0 auto 0 auto;
 .gallery3 {display:none;}
 
 .gallery1 {display:initial;
-margin-right:auto;
-margin-left:auto;
-margin-top:20px;}
+	margin-right:auto;
+	margin-left:auto;
+	margin-top:20px;}
 
 
 .mobile {
@@ -287,6 +287,10 @@ margin-top:20px;}
  }
  
 	
+#home {
+	
+	width: 80%;
+	}
  
 .mobile li {
 	text-decoration:none;
@@ -308,3 +312,4 @@ margin: 0 auto 0 auto;
 #logo { width:70%;} 
 
 #architecture { width:70%;} 
+}
