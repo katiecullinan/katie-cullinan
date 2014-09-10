@@ -232,11 +232,13 @@ margin-top: 60px;
 .gallery {display: none;}
 .gallery1{display: none;}
 
-.gallery3 {display:visible;
+.gallery3 {
+display: block;
 	max-width: 1200px;
-margin-right:auto;
-margin-left:auto;
-margin-top:20px;}
+	margin-right:auto;
+	margin-left:auto;
+	margin-top:20px;
+}
 
 .mobile1 {
  width:33%;
@@ -273,7 +275,7 @@ margin: 0 auto 0 auto;
 
 .gallery3 {display:none;}
 
-.gallery1 {display:visible;
+.gallery1 {display: block;
 	margin-right:auto;
 	margin-left:auto;
 	margin-top:20px;}
