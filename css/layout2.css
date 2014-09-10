@@ -232,7 +232,7 @@ margin-top: 60px;
 .gallery {display: none;}
 .gallery1{display: none;}
 
-.gallery3 {display:initial;
+.gallery3 {display:visible;
 	max-width: 1200px;
 margin-right:auto;
 margin-left:auto;
@@ -273,7 +273,7 @@ margin: 0 auto 0 auto;
 
 .gallery3 {display:none;}
 
-.gallery1 {display:initial;
+.gallery1 {display:visible;
 	margin-right:auto;
 	margin-left:auto;
 	margin-top:20px;}
