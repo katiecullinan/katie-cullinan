@@ -264,8 +264,43 @@ display: block;
 .mobile1 ul{
 padding: 30px;
 margin: 0 auto 0 auto;
-}	
+}
+
+
+	
+.contact {
+	margin-right: auto;
+	margin-left: auto;
+	clear: both;
+		width:100%;
 	}
+	
+
+.media {
+	width:100%;
+	
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	clear: both;
+	text-align:center;
+	display:inline-block;
+	}	
+
+.media ul {
+	padding:0;
+	text-align:center;
+		margin-right: auto;
+	margin-left: auto;
+		display:inline-block;
+
+	}
+
+
+
+	}
+
 
 	
 /* MOBILE LAYOUT */
@@ -285,24 +320,6 @@ margin: 0 auto 0 auto;
 	margin-top:20px;}
 
 
-
-
-.all {
- 	width:90%;
-  	padding:50px 0 0 0;
-  	margin-top: 20px;
-	text-align:center;
-	margin-left:auto;
-	margin-right: auto;	
-	text-decoration:none;
- }
- 
-	
-#home {
-	width: 60%;
-	}
- 
-	
 .navbar>li>a {
 	
 	text-decoration: none;
@@ -310,7 +327,64 @@ margin: 0 auto 0 auto;
 	margin-left: 1em;
 	margin-right: 1em;
 	margin-top: 1em;
+	}
+
+.all {
+ 	width:70%;
+  	padding:50px 0 0 0;
+  	margin-top: 20px;
+	text-align:center;
+	margin-left:auto;
+	margin-right: auto;	
+	text-decoration:none;
+	list-style-type: none;
 	
+ }
+ 
+
+
+
+.all li{
+	margin: 30px auto 0 auto;
+	}
+
+	
+#home {
+	width: 70%;
+	}
+ 
+	
+.contact {
+	margin-right: auto;
+	margin-left: auto;
+	clear: both;
+		width:100%;
+	}
+	
+
+.media {
+	width:100%;
+	
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	clear: both;
+	text-align:center;
+	display:inline-block;
+	}	
+
+.media ul {
+	padding:0;
+	text-align:center;
+	margin-right: auto;
+	margin-left: auto;
+	display:inline-block;
+
+	}
+
+
+/*	
 
 #signs { width:70%;} 
 
@@ -318,10 +392,9 @@ margin: 0 auto 0 auto;
 
 #architecture { width:70%;} 
 
-.all>li>a {
-	text-decoration: none;
-	list-style-type: none;
-	
-	}
+*/
+
+
+
 	
 	}
