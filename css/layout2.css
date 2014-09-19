@@ -268,7 +268,8 @@ margin: 0 auto 0 auto;
 	}
 
 	
-/* MOBILE LAYOUT 
+/* MOBILE LAYOUT */
+
 
 @media only screen and (max-width: 600px) {
 
@@ -298,7 +299,7 @@ margin: 0 auto 0 auto;
  
 	
 #home {
-	width: 80%;
+	width: 60%;
 	}
  
 	
@@ -324,4 +325,3 @@ margin: 0 auto 0 auto;
 	}
 	
 	}
-*/
