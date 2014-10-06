@@ -1,7 +1,6 @@
 /*Home page*/
 
-body {
-	background-color: #EDEDED;}
+
 	
 .container {
 	margin-top: 2em;
@@ -21,13 +20,22 @@ body {
    clear: both;
 }	
 
+
+#head {
+	height: 120px;
+	position: fixed;
+	width: 100%;
+
+
+}
+
+
 header {
 	height: 120px;
-	background: url(../images/head.png) no-repeat center;
-	background-color: #FFFFFF;
+	background-color: #C0C0C0;
+	opacity: .7;
 	background-position: center bottom;
-
-padding-top: 10px;
+	padding-top: 10px;
 	position: fixed;
 	width: 100%;
 	
@@ -42,11 +50,13 @@ padding-top: 10px;
 
 
 
-
 #home {
-	
-	margin: 30px auto 0 auto;
+	display: block;
+	margin-top: 10px;
+	margin-left:auto;
+	margin-right:auto;
 	max-width: 300px;
+	position: relative;
 	}
 
 .navbar {
@@ -54,14 +64,15 @@ padding-top: 10px;
 	font-size: 12px;
 	color: #222222;
 	padding: 0;
-	
-		margin: 22px auto 0 auto;
+	margin: 22px auto 0 auto;
+	position: relative;
+	text-align: center;
 
 	}
 
 .navbar>li {
 	display:inline;
-	line-height: 2em:
+	line-height: 2em;
 	
 	text-align: center;
 	}	
@@ -225,6 +236,28 @@ margin-top: 60px;
 	
 	}	
 
+
+.project {
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+}	
+
+.project-img {
+	width: 60%;
+	float: left;
+}
+
+.project-img img {
+	margin-top: 40px;
+}
+
+.project-text {
+	width: 35%;
+	float: right;
+	margin-top: 40px;
+}
 
 
 /* MOBILE LAYOUT */
