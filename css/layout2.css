@@ -257,7 +257,7 @@ width: 95%;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 100px;
-	
+	padding: 10px;
 }	
 
 .project-img {
@@ -527,6 +527,37 @@ margin: 0 auto 0 auto;
 #logo { width:70%;} 
 
 #architecture { width:70%;} 
+
+.project {
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	padding: 10px;
+}	
+
+.project-img {
+	width: 80%;
+	float: none;
+	box-sizing: border-box;
+	text-align: center;
+	margin: 0 auto;
+
+}
+
+.project-img img {
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+.project-text {
+	width: 100%;
+	float: none;
+	margin: 40px 0 0 10px;
+	padding-left: 20px;
+	box-sizing: border-box;
+	border-left: none;
+}
 
 
 
