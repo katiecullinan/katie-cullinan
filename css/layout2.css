@@ -285,7 +285,7 @@ width: 95%;
 
 .project-link {
 	font-family: 'Lato', sans-serif;
-	padding: 20px;
+	padding: 20px 5px;
 	background-color: #727272;
 	color: white;
 	width: 200px;
@@ -554,7 +554,7 @@ margin: 0 auto 0 auto;
 	width: 100%;
 	float: none;
 	margin: 40px 0 0 10px;
-	padding-left: 20px;
+	padding: 20px;
 	box-sizing: border-box;
 	border-left: none;
 }
