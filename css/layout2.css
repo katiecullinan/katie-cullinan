@@ -31,7 +31,7 @@
 
 
 header {
-	height: 80px;
+	height: 90px;
 	background-color: #C0C0C0;
 	opacity: .7;
 	background-position: center bottom;
@@ -253,17 +253,16 @@ width: 95%;
 /*Project Page*/
 
 .project {
-	max-width: 900px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 100px;
-	padding: 10px;
+	max-width: 1000px;
+	margin: 100px auto 20px;
+	
 }	
 
 .project-img {
 	width: 60%;
 	float: left;
 	box-sizing: border-box;
+
 }
 
 .project-img img {
@@ -273,12 +272,16 @@ width: 95%;
 
 .project-text {
 	width: 35%;
-	float: right;
-	margin: 40px 0 0 10px;
+	float:right;	
+	margin: 40px 0 40px 10px;
 	padding-left: 20px;
 	box-sizing: border-box;
 	border-left: 1px solid #ccc;
+	
 }
+
+.project-text h2{margin-top: 0;}
+
 .project-text p{
 	margin-top: 0;
 }
@@ -342,6 +345,16 @@ width: 95%;
 
 
 /* MOBILE LAYOUT */
+
+@media only screen and (max-width: 1050px) {
+	.project {
+	padding: 0 20px;
+}
+	.project-img {padding-left: 20px;}
+
+
+}
+
 
 @media only screen and (max-width: 950px) {
 /* Style adjustments for small screens */
@@ -414,9 +427,7 @@ margin: 0 auto 0 auto;
 	}
 
 
-
-	}
-
+.project-img {padding-left: 20px;}
 
 
 
@@ -559,7 +570,17 @@ margin: 0 auto 0 auto;
 	border-left: none;
 }
 
+#me-picture {
+	display: none; 
+}
 
+#about{
+	width: 100%;
+	float: none;
+
+	padding: 20px 20px;
+	
+}
 
 
 
