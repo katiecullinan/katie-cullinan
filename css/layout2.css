@@ -22,7 +22,7 @@
 
 
 #head {
-	height: 80px;
+	height: 90px;
 	position: fixed;
 	width: 100%;
 
@@ -112,6 +112,7 @@ header {
 max-width: 1200px;
 margin-right:auto;
 margin-left:auto;
+margin-top: 40px;
 
 }	
 	
@@ -508,8 +509,8 @@ margin: 0 auto 0 auto;
 
 .all {
  	width:70%;
-  	padding:10px 0 0 0;
-  
+  	padding:60px 0 0 0;
+
 	text-align:center;
 	margin-left:auto;
 	margin-right: auto;	
