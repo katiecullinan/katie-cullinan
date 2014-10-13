@@ -191,7 +191,7 @@ contact  a:visited {color: #555;}
 	font-weight: 400;}
 	
 .column a:hover {
-	color: #FF4719;}	
+	color: black;}	
 	
 #mobile_nav {
 	display:none;
@@ -247,8 +247,19 @@ width: 95%;
 	
 	}	
 
+.hover-text {
+	
+}
 
+.hover-text:hover {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+position: absolute;
 
+text-align: center;
+background: rgba(0,0,0,.8);
+}
 
 /*Project Page*/
 
@@ -343,6 +354,18 @@ width: 95%;
 	}	
 
 
+.title{
+   position: relative;
+    z-index:1000;
+   margin-bottom: 0px;
+    width:100%;
+   padding-top: 10px;
+    vertical-align: top;
+   color: black;
+    font-size: 14px;
+  }
+
+
 
 /* MOBILE LAYOUT */
 
@@ -430,7 +453,16 @@ margin: 0 auto 0 auto;
 .project-img {padding-left: 20px;}
 
 
-
+.title{
+   position: relative;
+    z-index:1000;
+   margin-bottom: 0px;
+    width:100%;
+   padding-top: 10px;
+    vertical-align: top;
+   color: black;
+    font-size: 14px;
+  }
 
 
 	
@@ -440,7 +472,7 @@ margin: 0 auto 0 auto;
 
 @media only screen and (max-width: 700px) {
 
-
+.title {display: none;}
 .gallery {display: none;}
 
 
