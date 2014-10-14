@@ -520,7 +520,7 @@ margin: 0 auto 0 auto;
 }	
 
 .all {
- 	width:70%;
+ 	width:100%;
   	padding:60px 0 0 0;
 
 	text-align:center;
@@ -586,14 +586,16 @@ margin: 0 auto 0 auto;
 
 
 
-#signs { width:70%;} 
+#signs { width:80%;} 
 
-#logo { width:70%;} 
+#logo { width:80%;} 
 
-#architecture { width:70%;} 
+#architecture { width:80%;} 
+
+#mits {width: 90%;}
 
 .project {
-	max-width: 900px;
+	
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 100px;
@@ -601,7 +603,7 @@ margin: 0 auto 0 auto;
 }	
 
 .project-img {
-	width: 80%;
+	width: 100%;
 	float: none;
 	box-sizing: border-box;
 	text-align: center;
@@ -618,8 +620,8 @@ margin: 0 auto 0 auto;
 .project-text {
 	width: 100%;
 	float: none;
-	margin: 40px 0 0 10px;
-	padding: 20px;
+	margin: 40px 0 0 0;
+	padding: 10px;
 	box-sizing: border-box;
 	border-left: none;
 }
