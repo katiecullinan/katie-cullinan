@@ -285,10 +285,10 @@
 
 <div class="media">
 	<ul>
-		<li><a href="https://www.facebook.com/kgcullinan" target="_blank" ><img src="img/facebook.png" alt="Facebook"></a></li>
-		<li><a href="https://www.linkedin.com/in/katherinecullinan" target="_blank" ><img src="img/linkedin.png" alt="Linkedin"></a></li>
-			<li><a href="https://www.behance.net/katie-cullinan" target="_blank" ><img src="img/behance.png" alt="Behance"></a></li>
-		<li><a href="https://twitter.com/katie_cullinan" target="_blank"><img src="img/twitter.png" alt="Twitter"></a></li>
+		<li><a href="https://www.facebook.com/kgcullinan" target="_blank" ><img src="img/facebook.png" alt=" "></a></li>
+		<li><a href="https://www.linkedin.com/in/katherinecullinan" target="_blank" ><img src="img/linkedin.png" alt=" "></a></li>
+		<li><a href="https://www.behance.net/katie-cullinan" target="_blank" ><img src="img/behance.png" alt=" "></a></li>
+		<li><a href="https://twitter.com/katie_cullinan" target="_blank"><img src="img/twitter.png" alt=" "></a></li>
 		
 	</ul>
 </div>
@@ -299,11 +299,24 @@
 
 
 	<!-- Load scripts -->
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script>
+$('ul li img').hover(
+    function(){
+        $(this).css('opacity','.5');
+        var a = $(this).attr('alt');
+        $(this).parent().append('<div class="title">' + a + '</div>');
+    },
+    function(){
+        $(this).css('opacity','1');
+        $(this).next().remove('.title');
+    }
+);
 
 </script
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
 	<script src="js/plugins.js"></script>
 	<script src="js/main.js"></script>

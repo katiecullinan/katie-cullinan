@@ -374,6 +374,13 @@ background: rgba(0,0,0,.8);
     font-size: 14px;
   }
 
+.media > ul > li > a>.title {display:none;}
+
+
+.media a:hover {
+     opacity: 0.6;
+    filter: alpha(opacity=60);
+    }
 
 
 /* MOBILE LAYOUT */
