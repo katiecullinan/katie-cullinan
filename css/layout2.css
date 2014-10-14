@@ -362,6 +362,11 @@ background: rgba(0,0,0,.8);
 	color: gray;
 	}	
 
+#home > a:hover {
+	 opacity: 0.6;
+    filter: alpha(opacity=60);
+	}	
+
 
 .title{
    position: relative;
