@@ -25,10 +25,7 @@
 	height: 90px;
 	position: fixed;
 	width: 100%;
-
-
 }
-
 
 header {
 	height: 90px;
@@ -45,7 +42,6 @@ header {
 	margin-left: auto;
 	border-bottom: 0;
 	text-align: center;
-	
 }
 
 
@@ -83,11 +79,7 @@ header {
 	margin-left: 1em;
 	margin-right: 2em;
 	margin-top: 1em;
-	
-
-	}		
-	
-
+}		
 
 
 .navbar > li > a:hover {
@@ -109,17 +101,17 @@ header {
 }
 
 .gallery {
-max-width: 1200px;
-margin-right:auto;
-margin-left:auto;
-margin-top: 40px;
+	max-width: 1200px;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top: 40px;
 
 }	
 	
 .column {
- width:25%;
-float: left;
-display: block;
+ 	width:25%;
+	float: left;
+	display: block;
 
 
  }
@@ -133,17 +125,17 @@ display: block;
 	}
 	
 .column ul{
-padding: 30px;
-margin: 0 auto 0 auto;
+	padding: 30px;
+	margin: 0 auto 0 auto;
 }	
 	
 
  
 .row1_image {
-   width:100%;
-  margin-top: 1em;
- padding: 1em;
-text-align:center;
+	width:100%;
+	margin-top: 1em;
+	padding: 1em;
+	text-align:center;
 }
 
 .row1_caption {
@@ -163,10 +155,8 @@ text-align:center;
 
 
 .contact {
-
-float:left;
-margin-left: 20px;
-text-transform: uppercase;
+	float:left;
+	text-transform: uppercase;
 }
 	
 .contact a {
@@ -176,7 +166,7 @@ text-transform: uppercase;
 	
 .contact p {
 	margin-top: 20px;
-		margin-bottom: 20px;
+	margin-bottom: 20px;
 
 	}	
 	
@@ -204,9 +194,9 @@ contact  a:visited {color: #555;}
 	}
 	
 hr {
-border-top: 1px solid #ccc;
-margin: 60px auto 0 auto;
-width: 95%;
+	border-top: 1px solid #ccc;
+	margin: 60px auto 0 auto;
+	width: 95%;
 }	
 
 
@@ -228,10 +218,16 @@ width: 95%;
 
 .media {
 	float:right;
-	margin-right: 20px;
+
 	margin-top: 20px;
 	margin-bottom: 20px;
 	}
+
+.footer {
+	width: 95%;
+	margin-right: auto;
+	margin-left: auto;
+}	
 
 
 .media li {
@@ -256,10 +252,9 @@ width: 95%;
 	display: inline-block;
 	width: 100%;
 	height: 100%;
-position: absolute;
-
-text-align: center;
-background: rgba(0,0,0,.8);
+	position: absolute;
+	text-align: center;
+	background: rgba(0,0,0,.8);
 }
 
 /*Project Page*/
@@ -328,8 +323,9 @@ background: rgba(0,0,0,.8);
 	float: left;
 	box-sizing: border-box;
 	padding-top: 20px;
-	font-size: 16px;
+	font-size: 14px;
 	line-height: 1.5em;
+
 	
 }
 
@@ -386,6 +382,10 @@ background: rgba(0,0,0,.8);
      opacity: 0.6;
     filter: alpha(opacity=60);
     }
+
+.navbar > li > a:active {
+	border-bottom: 1px solid black;
+}   
 
 
 /* MOBILE LAYOUT */
