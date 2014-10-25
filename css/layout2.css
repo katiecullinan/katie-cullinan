@@ -383,8 +383,9 @@ hr {
     filter: alpha(opacity=60);
     }
 
-.navbar > li > a:active {
+.navbar>li> a:active {
 	border-bottom: 1px solid black;
+	color: white;
 }   
 
 
