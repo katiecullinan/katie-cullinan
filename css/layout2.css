@@ -358,6 +358,11 @@ hr {
 	color: gray;
 	}	
 
+a:active {
+	border-bottom: 1px solid black;
+	
+}   
+
 #home > a:hover {
 	 opacity: 0.6;
     filter: alpha(opacity=60);
@@ -383,10 +388,7 @@ hr {
     filter: alpha(opacity=60);
     }
 
-.navbar>li> a:active {
-	border-bottom: 1px solid black;
-	color: white;
-}   
+
 
 
 /* MOBILE LAYOUT */
