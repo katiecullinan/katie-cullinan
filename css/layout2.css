@@ -28,8 +28,8 @@
 }
 
 header {
-	height: 90px;
-	background-color: #C0C0C0;
+	height: 70px;
+	background-color: rgb(234, 232, 231);
 	opacity: .7;
 	background-position: center bottom;
 	padding-top: 10px;
@@ -48,7 +48,7 @@ header {
 
 #home {
 	display: block;
-	margin: 10px 0px 0 40px;
+	margin: 0 0 0 40px;
 	max-width: 300px;
 	position: relative;
 	float: left;
@@ -59,7 +59,7 @@ header {
 	font-size: 14px;
 	color: #222222;
 	padding: 0;
-	margin: 10px 20px 0 auto;
+	margin: 0 20px 0 auto;
 	position: relative;
 	float: right;
 	font-family: 'Lato', Futura, sans-serif;
