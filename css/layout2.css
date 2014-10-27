@@ -304,6 +304,8 @@ hr {
 	text-align: center;
 	display: block;
 	border-radius: 2px;
+	font-size: 14px;
+	
 	}
 
 .project-link:hover {
