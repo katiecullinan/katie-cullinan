@@ -491,12 +491,16 @@ margin: 0 auto 0 auto;
   }
 
 
-	
+	.project-text-mobile {display: none;}
 	
 /* MOBILE LAYOUT */
 
 
 @media only screen and (max-width: 700px) {
+
+.project-text-mobile {display: block;}
+
+.project-text {display: none;}
 
 .title {display: none;}
 .gallery {display: none;}
@@ -622,13 +626,19 @@ margin: 0 auto 0 auto;
 	margin-bottom: 30px;
 }
 
-.project-text {
+.project-text-mobile {
 	width: 100%;
 	float: none;
-	margin: 40px 0 0 0;
+	margin: 10px 0 0 0;
 	padding: 10px;
 	box-sizing: border-box;
 	border-left: none;
+	font-size: 14px;
+	text-align: center;
+}
+
+.project-text-mobile h2{
+	font-size: 22px;
 }
 
 #me-picture {
