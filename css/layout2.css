@@ -629,16 +629,17 @@ margin: 0 auto 0 auto;
 .project-text-mobile {
 	width: 100%;
 	float: none;
-	margin: 10px 0 0 0;
+	margin: 0;
 	padding: 10px;
 	box-sizing: border-box;
 	border-left: none;
 	font-size: 14px;
-	text-align: center;
+	
 }
 
 .project-text-mobile h2{
-	font-size: 22px;
+	font-size: 2em;
+	margin-top: 0;
 }
 
 #me-picture {
