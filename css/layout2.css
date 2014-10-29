@@ -317,6 +317,8 @@ hr {
 	border: solid 1px #ededed;
 }
 
+.project-text-mobile {display: none;}
+
 
 /*About Page*/
 
@@ -401,6 +403,7 @@ a:active {
 }
 	.project-img {padding-left: 20px;}
 
+	.project-text-mobile {display: none;}
 
 }
 
