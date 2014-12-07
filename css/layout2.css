@@ -29,13 +29,13 @@
 
 header {
 	height: 90px;
-	background-color: rgb(234, 232, 231);
+	background-color: white;
 	opacity: .7;
 	background-position: center bottom;
 	padding-top: 10px;
 	position: fixed;
 	width: 100%;
-	
+	box-shadow: 0 4px 37px #68EC5F;
 	top: 0;
 	margin-right: auto;
 	margin-bottom: 1em;
