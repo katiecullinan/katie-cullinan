@@ -1,6 +1,11 @@
 /*Home page*/
 
-
+* {
+	box-sizing:border-box;
+}
+body {
+	background-color: #f5f5f5;
+}
 	
 .container {
 	margin-top: 2em;
@@ -30,18 +35,24 @@
 header {
 	height: 90px;
 	background-color: white;
-	opacity: .7;
+	background-image: url("header-background.png"); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;;
+	opacity: .6;
 	background-position: center bottom;
 	padding-top: 10px;
 	position: fixed;
 	width: 100%;
-	box-shadow: 0 4px 40px #0DF933;
+	box-shadow: 0 2px 50px rgb(202, 202, 202);
 	top: 0;
 	margin-right: auto;
 	margin-bottom: 1em;
 	margin-left: auto;
 	border-bottom: 0;
 	text-align: center;
+
 }
 
 
@@ -79,15 +90,17 @@ header {
 	margin-left: 1em;
 	margin-right: 2em;
 	margin-top: 1em;
+	padding-bottom: 10px;
 }		
 
 
 .navbar > li > a:hover {
-	color: gray;
+	border-bottom: 2px solid black;
+
 	}
 
-.navbar > li > a:active {
-	border-bottom: 1px solid black;
+.navbar > li > a:active{
+		color: gray;
 }
 
 
@@ -99,6 +112,13 @@ header {
 	font-size: 20px;
 	line-height: 1.5em;
 }
+.project-id {
+	font-size: 14px;
+	line-height: 1.25em;
+	margin-top: 5px;
+}
+
+
 
 .gallery {
 	max-width: 1200px;
@@ -144,6 +164,10 @@ header {
 	
 
 }
+.hover {
+	background-color: rgb(212, 255, 107);
+}
+
 
 .gallery3 {display:none;}
 
@@ -244,31 +268,24 @@ hr {
 	
 	}	
 
-.hover-text {
-	
-}
-
-.hover-text:hover {
-	display: inline-block;
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	text-align: center;
-	background: rgba(0,0,0,.8);
-}
 
 /*Project Page*/
 
 .project {
 	max-width: 1000px;
 	margin: 100px auto 20px;
+	background-color: white;
+	padding: 20px;
 	
 }	
+
+
 
 .project-img {
 	width: 60%;
 	float: left;
 	box-sizing: border-box;
+
 
 }
 
@@ -322,50 +339,75 @@ hr {
 
 /*About Page*/
 
-#about{
-	width: 60%;
-	float: left;
-	box-sizing: border-box;
-	padding-top: 20px;
-	font-size: 16px;
-	line-height: 1.5em;
-
-	
-}
-
-#info2 {
-	margin-top: 20px;
-
-}
-
-#me-picture {
-	float:right;
-	width: 40%;
-	box-sizing: border-box;
+.about-project{
+	max-width: 1100px;
+	margin: 60px auto 20px;
+	background-color: none;
 	padding: 20px;
 }
 
-#resume {
-	font-family: 'Lato', sans-serif;
-	font-size: 16px;
-	text-transform: uppercase;
-	margin: 20px auto;
-	text-align: center;
+
+.about{
+	width: 33%;
+	float: left;
+	
+	font-size: 14px;
+	line-height: 1.5em;
+	padding-right: 1em;
+}	
+
+.about > h1{
+	border-top:2px solid black;
+	letter-spacing: 2px;
+	padding-top: 20px;
+
+
+}
+.services-list li{
+
+	font-style: italic;
+	list-style: none;
+}
+
+
+.services-list {
+	padding-left: 0;
+}
+.media-list {
+	padding-left: 0;
+	list-style: none;
+}
+.media-list li a:hover{
+border-bottom: 2px solid black;
+}	
+
+.things-list {
+	margin-top: 0;
+}
+
+#me-picture {
+	
+	width: 40%;
+	box-sizing: border-box;
+	padding: 20px;
 	display: none;
 }
 
+.about-pictures {
+	width: 33%;
+	float: left;
+	margin-bottom: 20px;
+	margin-top: 40px;
+}
+
+
 #resume > a:hover {
-	color: gray;
+	border-bottom: 2px solid black;
 	}
 
- a:hover {
-	color: gray;
-	}	
-
 a:active {
-	border-bottom: 1px solid black;
-	
-}   
+	color:gray;
+}
 
 #home > a:hover {
 	 opacity: 0.6;
@@ -408,7 +450,7 @@ a:active {
 }
 
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 1000px) {
 /* Style adjustments for small screens */
 
 .gallery {display: none;}
@@ -498,6 +540,9 @@ margin: 0 auto 0 auto;
 	
 /* MOBILE LAYOUT */
 
+@media only screen and (max-width: 800px) {
+	.about {width: 100%}
+}	
 
 @media only screen and (max-width: 700px) {
 
@@ -598,13 +643,8 @@ margin: 0 auto 0 auto;
 
 
 
-#signs { width:80%;} 
+.smaller-mobile { width:80%;} 
 
-#logo { width:80%;} 
-
-#architecture { width:80%;} 
-
-#mits {width: 90%;}
 
 .project {
 	
@@ -645,9 +685,7 @@ margin: 0 auto 0 auto;
 	margin-top: 0;
 }
 
-#me-picture {
-	display: none; 
-}
+
 
 #about{
 	width: 100%;
