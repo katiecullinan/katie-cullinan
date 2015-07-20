@@ -557,6 +557,7 @@ margin: 0 auto 0 auto;
 .gallery3 {display:none;}
 
 .gallery1 {display: block;
+	width: 95%;
 	margin-right:auto;
 	margin-left:auto;
 	}
@@ -580,7 +581,7 @@ margin: 0 auto 0 auto;
  	width:50%;
   	padding:60px 0 0 0;
   	margin-top: 40px;
-
+  	display: block;
 	text-align:center;
 	margin-left:auto;
 	margin-right: auto;	
@@ -594,6 +595,9 @@ margin: 0 auto 0 auto;
  	font-size: 12px;
  }
  
+ .smallest1 li p.project-id{
+ 	font-size: 12px;
+ }
 
 .navbar {
 	margin: 20px auto;
@@ -652,7 +656,7 @@ margin: 0 auto 0 auto;
 
 
 
-.smaller-mobile { width:80%;} 
+/*.smaller-mobile { width:80%;} */
 
 
 .project {
