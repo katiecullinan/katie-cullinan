@@ -272,7 +272,7 @@ hr {
 /*Project Page*/
 
 .project {
-	max-width: 1000px;
+	max-width: 90%;
 	margin: 100px auto 20px;
 	background-color: white;
 	padding: 20px;
@@ -576,16 +576,22 @@ margin: 0 auto 0 auto;
 	margin: 120px auto 0 auto;
 }	
 
-.all {
- 	width:100%;
+.smallest1 {
+ 	width:50%;
   	padding:60px 0 0 0;
+  	margin-top: 40px;
 
 	text-align:center;
 	margin-left:auto;
 	margin-right: auto;	
 	text-decoration:none;
 	list-style-type: none;
+	float: left;
 	
+ }
+
+ .smallest1 h3 {
+ 	font-size: 12px;
  }
  
 
@@ -596,11 +602,8 @@ margin: 0 auto 0 auto;
 
 }
 
-.all li{
-	margin: 30px auto 0 auto;
-	display: inline;
-	width: 50%;
-	float: left;
+.smallest1 li{
+
 	padding: 1em;
 
 	}
