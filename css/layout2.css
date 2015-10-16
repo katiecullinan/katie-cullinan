@@ -35,11 +35,11 @@ body {
 header {
 	height: 90px;
 	background-color: #EC4025;
-	/*background-image: url("header-background.png"); 
+	background-image: url("header-background.png"); 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;;*/
+  background-size: cover;;
 	opacity: .9;
 	background-position: center bottom;
 	padding-top: 10px;
