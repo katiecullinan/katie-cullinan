@@ -4,7 +4,7 @@
 	box-sizing:border-box;
 }
 body {
-	background-color: #F3F3F3;
+	background-color: white;
 }
 	
 .container {
@@ -34,7 +34,7 @@ body {
 
 header {
 	height: 90px;
-	background-color: #4E93AB;
+	background-color: #D44129;
 	background-image: url("header-background.png"); 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -92,6 +92,7 @@ header {
 	margin-top: 1em;
 	padding-bottom: 10px;
 	font-weight: 300;
+	font-style: oblique;
 }		
 
 
